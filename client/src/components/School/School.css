@@ -1,0 +1,12 @@
+body {
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx7mwWfUl_Kn2cIy3aW8L7M7AyRqNjGi-dcCW3NWufmw7EjjIKWg")
+}
+
+.center-it {
+    margin: 0 auto;
+}
+
+.size-it {
+    width: 100px; 
+}
+
