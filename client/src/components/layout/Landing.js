@@ -9,7 +9,10 @@ class Landing extends Component {
       <div style={{ height: "50vh" }} className="container valign-wrapper">
         <div className="row">
           <div className="col s12 center-align">
-            <h4>
+            <h4
+            style={{
+              fontFamily: "georgia"
+            }}>
               <b>Parenting is hard</b> 
               <p>Let's make it easy</p>
             </h4>
