@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import { registerUser } from "../../actions/authActions";
 import classnames from "classnames";
+import Paper from "@material-ui/core/Paper";
 
 class Register extends Component {
   constructor() {
@@ -49,6 +50,14 @@ render() {
     const { errors } = this.state;
 return (
       <div className="container">
+        <Paper 
+          style={{
+            opacity: 0.8,
+            marginTop: 10,
+            paddingBottom: 25,
+            padding: 20
+          }}
+          >
         <div className="row">
           <div className="col s8 offset-s2">
             <Link to="/" className="btn-flat waves-effect">
@@ -137,6 +146,7 @@ return (
             </form>
           </div>
         </div>
+        </Paper>
       </div>
     );
   }

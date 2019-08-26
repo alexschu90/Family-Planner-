@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import { loginUser } from "../../actions/authActions";
 import classnames from "classnames";
+import Paper from "@material-ui/core/Paper";
 
 class Login extends Component {
   constructor() {
@@ -48,6 +49,14 @@ render() {
     const { errors } = this.state;
 return (
       <div className="container">
+        <Paper
+          style={{
+            opacity: 0.8,
+            width: 900,
+            marginLeft: 10,
+            paddingBottom: 25
+          }}
+          >
         <div style={{ marginTop: "4rem" }} className="row">
           <div className="col s8 offset-s2">
             <Link to="/" className="btn-flat waves-effect">
@@ -114,6 +123,7 @@ return (
             </form>
           </div>
         </div>
+        </Paper>
       </div>
     );
   }

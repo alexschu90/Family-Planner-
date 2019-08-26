@@ -1,8 +1,11 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import Paper from '@material-ui/core/Paper';
+
 class Landing extends Component {
   render() {
     return (
+      <Paper>
       <div style={{ height: "50vh" }} className="container valign-wrapper">
         <div className="row">
           <div className="col s12 center-align">
@@ -40,6 +43,7 @@ class Landing extends Component {
           </div>
         </div>
       </div>
+      </Paper>
     );
   }
 }
