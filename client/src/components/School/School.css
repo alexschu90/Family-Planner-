@@ -1,6 +1,10 @@
 body {
-    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx7mwWfUl_Kn2cIy3aW8L7M7AyRqNjGi-dcCW3NWufmw7EjjIKWg")
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx7mwWfUl_Kn2cIy3aW8L7M7AyRqNjGi-dcCW3NWufmw7EjjIKWg");
+
+    background-size: cover; 
 }
+
+
 
 .center-it {
     margin: 0 auto;
